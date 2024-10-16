@@ -1,0 +1,1 @@
+go build -o ./dist/makedll.dll -buildmode=c-shared main.go
