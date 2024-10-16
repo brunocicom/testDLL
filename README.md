@@ -49,7 +49,7 @@ Não é recomendável a instalação do ambiente C++ WinLibs ou MinGW por outras
 
 O MSYS2 é comendado pela própria Microsoft. Infelizmente o Microsoft Visual C++ não suporta Go.
 
-Neste [link oficial](https://code.visualstudio.com/docs/cpp/config-mingw) há o passo a passo da instalação e configuração do MSYS2, também produzido abaixo:
+Neste [link oficial](https://code.visualstudio.com/docs/cpp/config-mingw) há o passo a passo da instalação e configuração do MSYS2, também reproduzido abaixo:
 
 1. You can download the latest installer from the MSYS2 page or use this direct link to the installer.
 2. Run the installer and follow the steps of the installation wizard. Note that MSYS2 requires 64 bit Windows 8.1 or newer.
