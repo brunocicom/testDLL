@@ -7,12 +7,12 @@ O projeto está dividido em três pacotes:
 2. includeDLL: Inclui DLL criada em 'makeDLL' no código executável
 3. loadDLL: Carrega a  DLL criada em 'makeDLL'
 
-(Referencia)[https://go.dev/wiki/WindowsDLLs].
+[Referência](https://go.dev/wiki/WindowsDLLs).
 
 ## Requerimentos
 
-golang: https://go.dev/doc/install
-gcc: https://github.com/msys2/msys2-installer/
+- golang: https://go.dev/doc/install
+- gcc: https://github.com/msys2/msys2-installer/
 
 ## Configurações
 
@@ -43,13 +43,13 @@ Para confirmar utilize `go env CGO_ENABLED`
 
 ## Instalando GCC
 
-É sugerida a instalação do GCC via (MSYS2)[https://github.com/msys2/msys2-installer/]. Baixe e instale a versão da sua plataforma.
+É sugerida a instalação do GCC via [MSYS2](https://github.com/msys2/msys2-installer/). Baixe e instale a versão da sua plataforma.
 Não é recomendável a instalação do ambiente C++ WinLibs ou MinGW por outras ferramentas - Podem conter trojans/vírus.
 > As distribuições Linux já possuem as bibliotecas C++
 
 O MSYS2 é comendado pela própria Microsoft. Infelizmente o Microsoft Visual C++ não suporta Go.
 
-Neste (link oficial)[https://code.visualstudio.com/docs/cpp/config-mingw] há o passo a passo da instalação e configuração do MSYS2, também produzido abaixo:
+Neste [link oficial](https://code.visualstudio.com/docs/cpp/config-mingw) há o passo a passo da instalação e configuração do MSYS2, também produzido abaixo:
 
 1. You can download the latest installer from the MSYS2 page or use this direct link to the installer.
 2. Run the installer and follow the steps of the installation wizard. Note that MSYS2 requires 64 bit Windows 8.1 or newer.
