@@ -43,6 +43,18 @@ Para confirmar utilize `go env CGO_ENABLED`
 
 ## Instalando GCC
 
+
+### Instruções GCC - minGW64 32bits
+
+O projeto open source minGW34 mantém o suporte a 32bits com suporte a runtime *msvcrt* e *ucrt*.
+Conforme [documentação](https://www.msys2.org/docs/environments/#msvcrt-vs-ucrt) o runtime *ucrt* está com melhor suporte e também é o default do Microsoft Visual Studio.
+
+Página do projeto [mingGW64](https://github.com/niXman/mingw-builds-binaries?tab=readme-ov-file).
+
+> Atualmente desenvolvendo suporte para aplicações 32bits
+
+### Instruções GCC - MSYS2 64bits
+
 É sugerida a instalação do GCC via [MSYS2](https://github.com/msys2/msys2-installer/). Baixe e instale a versão da sua plataforma.
 Não é recomendável a instalação do ambiente C++ WinLibs ou MinGW por outras ferramentas - Podem conter trojans/vírus.
 > As distribuições Linux já possuem as bibliotecas C++
