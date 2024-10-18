@@ -43,7 +43,6 @@ Para confirmar utilize `go env CGO_ENABLED`
 
 ## Instalando GCC
 
-
 ### Instruções GCC - minGW64 32bits
 
 O projeto open source minGW34 mantém o suporte a 32bits com suporte a runtime *msvcrt* e *ucrt*.
@@ -52,6 +51,12 @@ Conforme [documentação](https://www.msys2.org/docs/environments/#msvcrt-vs-ucr
 Página do projeto [mingGW64](https://github.com/niXman/mingw-builds-binaries?tab=readme-ov-file).
 
 > Atualmente desenvolvendo suporte para aplicações 32bits
+
+#### Build
+
+Build para 32bits
+
+`GOARCH=386 go build -o ./dist/makedll.dll -buildmode=c-shared main.go`
 
 ### Instruções GCC - MSYS2 64bits
 
